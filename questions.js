@@ -76,6 +76,7 @@ function render(questionIndex) {
         listItem.addEventListener("click", (compare));
     })
 }
+
 // compare choices with answer
 function compare(event) {
     var element = event.target;
@@ -95,6 +96,7 @@ function compare(event) {
         }
 
     }
+    
     // number question user is on
     questionIndex++;
 
@@ -183,7 +185,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Directs to highscore page
-            window.location.replace("./HighScores.html");
+            window.location.replace("./highscores.html");
         }
     });
 
