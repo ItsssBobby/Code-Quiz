@@ -8,6 +8,7 @@ This quiz will test your knowledge on the fundamentals of coding, take it and tr
 ## Usage
 
 To use just press 'Start' and answer the questions within the time limit to get your score at the end!
+
 ![Image of start page](./assets/images/codequiz.png)
 
 Once you have your score, enter your initials and click 'Submit'.
